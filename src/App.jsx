@@ -33,7 +33,9 @@ export default function App() {
 
     return(
         <>
-            <h1>Registeration Form <span>-by Achyuth</span></h1>
+            <h1>Registeration Form </h1>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>-by Achyuth</span>
             
             <form onSubmit={handleSubmit}>
                 <div>
