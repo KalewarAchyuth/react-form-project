@@ -33,11 +33,9 @@ export default function App() {
 
     return(
         <>
-            <div class="header-container">
-                <h1>Registration Form</h1>
-                <span class="byline">-by Achyuth</span>
-            </div>
             
+            <h1>Registration Form</h1>
+                
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="user">Username : </label>
@@ -77,6 +75,7 @@ export default function App() {
 
                 <button type="submit">Submit</button>
             </form>
+            <p>&copy; made by Achyuth Kalewar</p>
         </>
     )
 }
