@@ -33,9 +33,10 @@ export default function App() {
 
     return(
         <>
-            <h1>Registeration Form </h1>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span>-by Achyuth</span>
+            <div class="header-container">
+                <h1>Registration Form</h1>
+                <span class="byline">-by Achyuth</span>
+            </div>
             
             <form onSubmit={handleSubmit}>
                 <div>
