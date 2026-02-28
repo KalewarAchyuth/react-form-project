@@ -34,7 +34,7 @@ export default function App() {
     return(
         <>
             
-            <h1>Registration Form</h1>
+            <h1 style={{marginBottom: "10px", textAlign: "center" }}> Registration Form</h1>
                 
             <form onSubmit={handleSubmit}>
                 <div>
@@ -75,7 +75,10 @@ export default function App() {
 
                 <button type="submit">Submit</button>
             </form>
-            <p>&copy; made by Achyuth Kalewar</p>
+            <p style={{ marginTop: "10px", textAlign: "center" }}>
+                &copy; made by Achyuth Kalewar
+            </p>
+
         </>
     )
 }
