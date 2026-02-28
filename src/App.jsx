@@ -33,6 +33,8 @@ export default function App() {
 
     return(
         <>
+            <h1>Registeration Form <span>-by Achyuth</span></h1>
+            
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="user">Username : </label>
